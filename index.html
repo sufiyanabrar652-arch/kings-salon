@@ -1,0 +1,1459 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>King’s Cut (حلاق عربي) | Luxury Arabic Barber Shop Houston</title>
+    <meta name="description" content="Houston's premier luxury Arabic barber shop. Master precision fades, bespoke beard sculpting, royal hot towel shaves, and VIP grooming at 7814 Almeda Rd." />
+    <meta property="og:title" content="King’s Cut (حلاق عربي) | Luxury Arabic Barber Shop Houston" />
+    <meta property="og:description" content="Houston's premier luxury Arabic barber shop. 5.0★ rating with 377+ reviews. Master fades, beard sculpting & hot towel shaves." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Google Fonts: Cinzel (luxury serif), Cairo (Arabic typography), Plus Jakarta Sans (clean body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Cinzel:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS CDN for instant, standalone styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              gold: {
+                primary: '#D4AF37',
+                light: '#F3E5AB',
+                dark: '#99781B',
+              }
+            },
+            fontFamily: {
+              display: ['Cinzel', 'serif'],
+              arabic: ['Cairo', 'sans-serif'],
+              sans: ['Plus Jakarta Sans', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+
+    <!-- Schema.org LocalBusiness JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BarberShop",
+      "name": "King's Cut (حلاق عربي)",
+      "image": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1200&q=80",
+      "@id": "https://kingscuthouston.com",
+      "url": "https://kingscuthouston.com",
+      "telephone": "+18329988188",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "7814 Almeda Rd",
+        "addressLocality": "Houston",
+        "addressRegion": "TX",
+        "postalCode": "77054",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 29.6917,
+        "longitude": -95.3888
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "opens": "10:00",
+          "closes": "20:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Sunday"],
+          "opens": "10:00",
+          "closes": "19:00"
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "reviewCount": "377"
+      }
+    }
+    </script>
+
+    <style>
+      :root {
+        --bg-main: #0B0B0C;
+        --bg-surface: #141417;
+        --bg-elevated: #1C1C21;
+        --gold-primary: #D4AF37;
+        --gold-light: #F3E5AB;
+        --gold-dark: #99781B;
+        --gold-gradient: linear-gradient(135deg, #F5D77F 0%, #D4AF37 50%, #99781B 100%);
+        --gold-border: rgba(212, 175, 55, 0.25);
+        --gold-glow: rgba(212, 175, 55, 0.15);
+        --text-primary: #F8F9FA;
+        --text-secondary: #A1A1AA;
+        --text-muted: #71717A;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background-color: var(--bg-main);
+        color: var(--text-primary);
+        font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+        line-height: 1.6;
+        overflow-x: hidden;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      .font-display {
+        font-family: 'Cinzel', serif;
+        letter-spacing: 0.04em;
+      }
+
+      .font-arabic {
+        font-family: 'Cairo', sans-serif;
+      }
+
+      .text-gold-gradient {
+        background: var(--gold-gradient);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      .gold-border {
+        border: 1px solid var(--gold-border);
+      }
+
+      .gold-glow {
+        box-shadow: 0 0 25px var(--gold-glow);
+      }
+
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #0B0B0C;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #27272A;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: var(--gold-dark);
+      }
+
+      /* Luxury Button */
+      .btn-gold {
+        background: var(--gold-gradient);
+        color: #0B0B0C;
+        font-weight: 700;
+        letter-spacing: 0.05em;
+        position: relative;
+        overflow: hidden;
+        transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        cursor: pointer;
+        border: none;
+      }
+      .btn-gold:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 24px rgba(212, 175, 55, 0.35);
+      }
+      .btn-gold::after {
+        content: '';
+        position: absolute;
+        top: -50%;
+        left: -60%;
+        width: 40%;
+        height: 200%;
+        background: rgba(255, 255, 255, 0.3);
+        transform: rotate(30deg);
+        transition: all 0.75s ease;
+      }
+      .btn-gold:hover::after {
+        left: 120%;
+      }
+
+      .btn-outline-gold {
+        background: transparent;
+        color: var(--gold-light);
+        border: 1px solid var(--gold-primary);
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        cursor: pointer;
+      }
+      .btn-outline-gold:hover {
+        background: rgba(212, 175, 55, 0.1);
+        color: #FFFFFF;
+        border-color: #F5D77F;
+      }
+
+      /* Subtle Grid Background Pattern */
+      .bg-grid-pattern {
+        background-image: radial-gradient(rgba(212, 175, 55, 0.08) 1px, transparent 1px);
+        background-size: 32px 32px;
+      }
+
+      /* Modal styling */
+      .modal-backdrop {
+        background: rgba(5, 5, 6, 0.85);
+        backdrop-filter: blur(8px);
+      }
+
+      /* Animation keyframes */
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.4; }
+        50% { opacity: 0.8; }
+      }
+      .pulse-glow {
+        animation: pulseGlow 4s ease-in-out infinite;
+      }
+
+      /* Fade in animation */
+      .fade-up {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1), transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+      }
+      .fade-up.visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    </style>
+  </head>
+  <body class="bg-[#0B0B0C] text-[#F8F9FA] selection:bg-[#D4AF37] selection:text-black">
+
+    <!-- Top Announcement Bar: Live Status & Location -->
+    <div class="w-full bg-[#121214] border-b border-[#27272A] text-xs py-2 px-4">
+      <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2 text-[#A1A1AA]">
+        <div class="flex items-center gap-3">
+          <div class="flex items-center gap-1.5 font-medium text-emerald-400">
+            <span class="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+            <span id="live-status-text">Open Today · 10:00 AM – 8:00 PM</span>
+          </div>
+          <span class="text-[#3F3F46]">·</span>
+          <span>7814 Almeda Rd, Houston, TX 77054 (Astrodome Area)</span>
+        </div>
+        <div class="flex items-center gap-4 text-xs">
+          <a href="tel:8329988188" class="hover:text-white transition-colors flex items-center gap-1">
+            <svg class="w-3.5 h-3.5 text-[#D4AF37]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+            (832) 998-8188
+          </a>
+          <span class="text-[#3F3F46]">·</span>
+          <span class="text-[#F5D77F] font-semibold flex items-center gap-1">
+            ★ 5.0 Google Rating (377 Reviews)
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation Header (Strict 3-zone Top Bar Contract) -->
+    <header class="sticky top-0 z-40 bg-[#0B0B0C]/90 backdrop-blur-md border-b border-[#27272A]/80 transition-all">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+        
+        <!-- Zone 1: Wordmark / Brand element -->
+        <a href="#" class="flex items-center gap-3 group">
+          <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-[#27272A] to-[#141417] border border-[#D4AF37]/40 flex items-center justify-center text-[#D4AF37] font-display font-bold text-xl group-hover:border-[#D4AF37] transition-colors">
+            👑
+          </div>
+          <div class="flex flex-col">
+            <span class="font-display font-bold text-lg sm:text-xl tracking-wider text-white">KING’S CUT</span>
+            <span class="font-arabic text-xs font-semibold text-[#D4AF37] -mt-1 tracking-normal">حلاق عربي</span>
+          </div>
+        </a>
+
+        <!-- Zone 2: Navigation Links -->
+        <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-[#A1A1AA]">
+          <a href="#services" class="hover:text-[#F3E5AB] transition-colors">Services & Pricing</a>
+          <a href="#experience" class="hover:text-[#F3E5AB] transition-colors">The Royal Standard</a>
+          <a href="#gallery" class="hover:text-[#F3E5AB] transition-colors">Master Lookbook</a>
+          <a href="#reviews" class="hover:text-[#F3E5AB] transition-colors">5.0★ Reviews</a>
+          <a href="#location" class="hover:text-[#F3E5AB] transition-colors">Hours & Directions</a>
+        </nav>
+
+        <!-- Zone 3: Primary Action & Mobile Menu Toggle -->
+        <div class="flex items-center gap-3">
+          <a href="https://wa.me/18329988188?text=Hello%20King's%20Cut!%20I%20would%20like%20to%20inquire%20about%20booking%20an%20appointment." target="_blank" rel="noopener" class="hidden sm:inline-flex items-center gap-1.5 px-3.5 py-2 text-xs font-semibold text-emerald-400 bg-emerald-950/40 border border-emerald-800/60 rounded-md hover:bg-emerald-900/40 transition-colors">
+            <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+            WhatsApp
+          </a>
+          <button onclick="openBookingModal()" class="btn-gold px-4 py-2 text-xs rounded-md shadow-lg">
+            <span>Book Now</span>
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+          </button>
+          <button id="mobile-menu-btn" onclick="toggleMobileMenu()" class="md:hidden p-2 text-[#A1A1AA] hover:text-white" aria-label="Toggle menu">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Dropdown Navigation -->
+      <div id="mobile-menu" class="hidden md:hidden bg-[#121214] border-b border-[#27272A] px-4 py-4 space-y-3">
+        <a href="#services" onclick="toggleMobileMenu()" class="block text-sm font-medium text-[#F4F4F5] hover:text-[#D4AF37] py-1.5">Services & Pricing</a>
+        <a href="#experience" onclick="toggleMobileMenu()" class="block text-sm font-medium text-[#F4F4F5] hover:text-[#D4AF37] py-1.5">The Royal Standard</a>
+        <a href="#gallery" onclick="toggleMobileMenu()" class="block text-sm font-medium text-[#F4F4F5] hover:text-[#D4AF37] py-1.5">Master Lookbook</a>
+        <a href="#reviews" onclick="toggleMobileMenu()" class="block text-sm font-medium text-[#F4F4F5] hover:text-[#D4AF37] py-1.5">5.0★ Google Reviews</a>
+        <a href="#location" onclick="toggleMobileMenu()" class="block text-sm font-medium text-[#F4F4F5] hover:text-[#D4AF37] py-1.5">Hours & Directions</a>
+        <div class="pt-3 border-t border-[#27272A] flex flex-col gap-2">
+          <a href="https://wa.me/18329988188?text=Hello%20King's%20Cut!%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" rel="noopener" class="w-full text-center py-2.5 rounded text-xs font-semibold text-emerald-400 bg-emerald-950/60 border border-emerald-800">
+            WhatsApp Direct Concierge
+          </a>
+          <button onclick="openBookingModal(); toggleMobileMenu();" class="btn-gold w-full py-2.5 rounded text-xs">
+            Reserve Appointment
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="relative min-h-[90vh] flex items-center justify-center bg-grid-pattern overflow-hidden pt-12 pb-20">
+      <!-- Ambient Radial Glows -->
+      <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#D4AF37]/10 rounded-full blur-[140px] pointer-events-none pulse-glow"></div>
+      <div class="absolute bottom-0 right-10 w-[400px] h-[400px] bg-[#99781B]/10 rounded-full blur-[120px] pointer-events-none"></div>
+
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          
+          <!-- Hero Text Content -->
+          <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+            
+            <!-- Badges and Verification Line -->
+            <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-[#1C1C21] border border-[#D4AF37]/30 text-xs text-[#F3E5AB]">
+              <span class="text-[#D4AF37]">★ 5.0 Rating</span>
+              <span class="text-[#52525B]">·</span>
+              <span>377+ Verified Google Reviews</span>
+              <span class="text-[#52525B]">·</span>
+              <span class="font-arabic text-[#D4AF37]">هيوستن تكساس</span>
+            </div>
+
+            <!-- Main Headline -->
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-display font-extrabold tracking-tight text-white leading-tight">
+              The Royal Standard in <br>
+              <span class="text-gold-gradient">Arabic Grooming</span>
+            </h1>
+
+            <p class="font-arabic text-xl sm:text-2xl text-[#E4C87F] font-semibold tracking-wide">
+              حلاق عربي فاخر في هيوستن — دقة متناهية وفخامة لا تضاهى
+            </p>
+
+            <p class="text-base sm:text-lg text-[#A1A1AA] max-w-2xl mx-auto lg:mx-0 font-normal leading-relaxed">
+              Experience the pinnacle of traditional Middle Eastern barbering and modern precision styling. Master razor skin fades, sculpted beard architecture, royal steam hot towel rituals, and bespoke capillary hair treatments in Houston’s most refined gentleman’s sanctuary.
+            </p>
+
+            <!-- Key Proof Points -->
+            <div class="grid grid-cols-3 gap-4 pt-2 pb-2 border-y border-[#27272A]/80 max-w-xl mx-auto lg:mx-0">
+              <div>
+                <p class="text-xl sm:text-2xl font-bold text-white font-display">5.0 ★</p>
+                <p class="text-xs text-[#71717A]">377+ Google Reviews</p>
+              </div>
+              <div>
+                <p class="text-xl sm:text-2xl font-bold text-white font-display">15+ Yrs</p>
+                <p class="text-xs text-[#71717A]">Master Artisan Craft</p>
+              </div>
+              <div>
+                <p class="text-xl sm:text-2xl font-bold text-white font-display">Astrodome</p>
+                <p class="text-xs text-[#71717A]">7814 Almeda Rd</p>
+              </div>
+            </div>
+
+            <!-- CTAs -->
+            <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
+              <button onclick="openBookingModal()" class="btn-gold w-full sm:w-auto px-8 py-4 rounded-lg text-sm font-bold shadow-2xl shadow-[#D4AF37]/20">
+                <span>Book Your Royal Chair</span>
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+              </button>
+
+              <a href="https://wa.me/18329988188?text=Hello%20King's%20Cut!%20I%20would%20like%20to%20book%20or%20inquire%20about%20a%20service." target="_blank" rel="noopener" class="btn-outline-gold w-full sm:w-auto px-6 py-4 rounded-lg text-sm">
+                <svg class="w-4 h-4 fill-[#25D366]" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                <span>WhatsApp Concierge</span>
+              </a>
+
+              <a href="tel:8329988188" class="inline-flex items-center gap-2 text-sm text-[#A1A1AA] hover:text-white transition-colors px-2 py-3">
+                <svg class="w-4 h-4 text-[#D4AF37]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+                <span>Call (832) 998-8188</span>
+              </a>
+            </div>
+
+            <!-- Quiet trust footnote -->
+            <p class="text-xs text-[#71717A] pt-2">
+              Walk-ins warmly welcomed · Appointments prioritized · Free front parking
+            </p>
+          </div>
+
+          <!-- Hero Image Bento / Visual Showcase -->
+          <div class="lg:col-span-5 relative">
+            <div class="relative rounded-2xl overflow-hidden gold-border gold-glow group">
+              <!-- Gradient Overlay Scrim -->
+              <div class="absolute inset-0 bg-gradient-to-t from-[#0B0B0C] via-transparent to-transparent z-10 opacity-70"></div>
+              
+              <img 
+                src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1200&q=80" 
+                alt="King's Cut luxury Arabic barbershop interior in Houston"
+                class="w-full h-[460px] sm:h-[540px] object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
+                loading="eager"
+                referrerpolicy="no-referrer"
+              />
+
+              <!-- Floating Real Detail Card -->
+              <div class="absolute bottom-6 left-6 right-6 z-20 bg-[#141417]/95 backdrop-blur-md p-4 rounded-xl border border-[#D4AF37]/30 shadow-2xl">
+                <div class="flex items-center justify-between">
+                  <div>
+                    <h3 class="font-display font-semibold text-white text-sm">Astrodome Flagship Studio</h3>
+                    <p class="text-xs text-[#A1A1AA]">7814 Almeda Rd, Houston, TX</p>
+                  </div>
+                  <a href="#location" class="px-3 py-1.5 rounded bg-[#27272A] text-[#F3E5AB] text-xs font-medium hover:bg-[#3F3F46] transition-colors">
+                    Directions →
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Decorative corner accent -->
+            <div class="absolute -top-3 -right-3 w-16 h-16 border-t-2 border-r-2 border-[#D4AF37] pointer-events-none"></div>
+            <div class="absolute -bottom-3 -left-3 w-16 h-16 border-b-2 border-l-2 border-[#D4AF37] pointer-events-none"></div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: THE ROYAL EXPERIENCE (THE THREE PILLARS) -->
+    <section id="experience" class="py-20 bg-[#121214] border-t border-b border-[#27272A]">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-16 space-y-3">
+          <p class="text-xs font-semibold uppercase tracking-widest text-[#D4AF37]">The Heritage of Perfection</p>
+          <h2 class="text-3xl sm:text-4xl font-display font-bold text-white">
+            Where Arabic Tradition Meets Houston Prestige
+          </h2>
+          <p class="text-sm sm:text-base text-[#A1A1AA]">
+            Arabic barbering is not merely a service; it is an art form rooted in hospitality, precision geometry, and uncompromising dedication to your personal signature look.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          
+          <!-- Pillar 1 -->
+          <div class="bg-[#18181B] p-8 rounded-xl border border-[#27272A] hover:border-[#D4AF37]/50 transition-colors group">
+            <div class="w-12 h-12 rounded-lg bg-[#27272A] border border-[#D4AF37]/30 flex items-center justify-center text-[#D4AF37] mb-6 group-hover:bg-[#D4AF37] group-hover:text-black transition-colors">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.121 14.121L19 19m-7-7l7-7m-7 7l-2.879 2.879M12 12L9.121 9.121m0 5.758a3 3 0 10-4.243-4.243 3 3 0 004.243 4.243z"/></svg>
+            </div>
+            <h3 class="text-xl font-display font-bold text-white mb-2">Master Razor Fades</h3>
+            <p class="font-arabic text-sm text-[#D4AF37] mb-3 font-semibold">تدرج دقيق بالموس والماكينة</p>
+            <p class="text-sm text-[#A1A1AA] leading-relaxed">
+              Seamless low, mid, and high skin tapers blended to micro-millimeter precision with straight razor perimeter definition and custom neckline styling.
+            </p>
+          </div>
+
+          <!-- Pillar 2 -->
+          <div class="bg-[#18181B] p-8 rounded-xl border border-[#27272A] hover:border-[#D4AF37]/50 transition-colors group">
+            <div class="w-12 h-12 rounded-lg bg-[#27272A] border border-[#D4AF37]/30 flex items-center justify-center text-[#D4AF37] mb-6 group-hover:bg-[#D4AF37] group-hover:text-black transition-colors">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/></svg>
+            </div>
+            <h3 class="text-xl font-display font-bold text-white mb-2">Arabian Beard Architecture</h3>
+            <p class="font-arabic text-sm text-[#D4AF37] mb-3 font-semibold">تحديد وتنسيق اللحية الملكي</p>
+            <p class="text-sm text-[#A1A1AA] leading-relaxed">
+              Laser-sharp cheek line-ups, organic botanical beard oil conditioning, density sculpting, and hot steam treatment to maintain your beard in regal condition.
+            </p>
+          </div>
+
+          <!-- Pillar 3 -->
+          <div class="bg-[#18181B] p-8 rounded-xl border border-[#27272A] hover:border-[#D4AF37]/50 transition-colors group">
+            <div class="w-12 h-12 rounded-lg bg-[#27272A] border border-[#D4AF37]/30 flex items-center justify-center text-[#D4AF37] mb-6 group-hover:bg-[#D4AF37] group-hover:text-black transition-colors">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg>
+            </div>
+            <h3 class="text-xl font-display font-bold text-white mb-2">Royal Hot Towel Ritual</h3>
+            <p class="font-arabic text-sm text-[#D4AF37] mb-3 font-semibold">حلاقة بالفوطة الساخنة والمساج</p>
+            <p class="text-sm text-[#A1A1AA] leading-relaxed">
+              Eucalyptus and lavender hot towel infusion, pre-shave butter preparation, pure badger lather, feather-touch straight razor glide, and ice-cold tonic finish.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: SERVICES & PRICING MENU (INTERACTIVE FILTER & BOOKING INTEGRATION) -->
+    <section id="services" class="py-24 bg-[#0B0B0C] relative">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+          <div class="space-y-3">
+            <p class="text-xs font-semibold uppercase tracking-widest text-[#D4AF37]">Bespoke Menu</p>
+            <h2 class="text-3xl sm:text-4xl font-display font-bold text-white">
+              Signature Services & Grooming Packages
+            </h2>
+            <p class="text-sm text-[#A1A1AA] max-w-xl">
+              Authentic pricing transparently honored. Select any service to directly reserve your appointment.
+            </p>
+          </div>
+
+          <!-- Interactive Category Filter -->
+          <div class="flex items-center gap-1.5 p-1.5 bg-[#141417] rounded-lg border border-[#27272A] overflow-x-auto text-xs whitespace-nowrap">
+            <button onclick="filterServices('all')" id="filter-btn-all" class="service-filter-btn px-4 py-2 rounded-md font-medium bg-[#D4AF37] text-black transition-colors">
+              All Services
+            </button>
+            <button onclick="filterServices('hair')" id="filter-btn-hair" class="service-filter-btn px-4 py-2 rounded-md font-medium text-[#A1A1AA] hover:text-white transition-colors">
+              Haircuts & Fades
+            </button>
+            <button onclick="filterServices('beard')" id="filter-btn-beard" class="service-filter-btn px-4 py-2 rounded-md font-medium text-[#A1A1AA] hover:text-white transition-colors">
+              Beard & Shave
+            </button>
+            <button onclick="filterServices('vip')" id="filter-btn-vip" class="service-filter-btn px-4 py-2 rounded-md font-medium text-[#A1A1AA] hover:text-white transition-colors">
+              VIP Royal Combos
+            </button>
+            <button onclick="filterServices('treatments')" id="filter-btn-treatments" class="service-filter-btn px-4 py-2 rounded-md font-medium text-[#A1A1AA] hover:text-white transition-colors">
+              Treatments & Color
+            </button>
+          </div>
+        </div>
+
+        <!-- Services Grid -->
+        <div id="services-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          
+          <!-- Service 1: Signature Haircut & Fade -->
+          <div class="service-card bg-[#141417] p-6 rounded-xl border border-[#27272A] hover:border-[#D4AF37]/50 transition-all flex flex-col justify-between" data-category="hair">
+            <div>
+              <div class="flex items-start justify-between gap-4 mb-3">
+                <div>
+                  <h3 class="font-display font-bold text-white text-lg">Signature Fade & Cut</h3>
+                  <p class="font-arabic text-xs text-[#D4AF37]">قص شعر وتدريج ملكي</p>
+                </div>
+                <span class="font-display font-bold text-xl text-[#F3E5AB] tabular-nums">$35</span>
+              </div>
+              <p class="text-xs text-[#A1A1AA] leading-relaxed mb-4">
+                Consultation, precision shear sculpting, low/mid/high skin fade, razor edge clean up, and styling with premium matte paste.
+              </p>
+              <div class="flex items-center gap-2 text-[11px] text-[#71717A] mb-4">
+                <span>⏱ 35 mins</span>
+                <span>·</span>
+                <span>Includes hot neck lather shave</span>
+              </div>
+            </div>
+            <button onclick="openBookingModal('Signature Fade & Cut', '$35')" class="w-full py-2.5 rounded bg-[#1C1C21] hover:bg-[#D4AF37] hover:text-black text-xs font-semibold text-[#F3E5AB] transition-colors border border-[#27272A]">
+              Select Service
+            </button>
+          </div>
+
+          <!-- Service 2: Royal Beard Sculpt & Line Up -->
+          <div class="service-card bg-[#141417] p-6 rounded-xl border border-[#27272A] hover:border-[#D4AF37]/50 transition-all flex flex-col justify-between" data-category="beard">
+            <div>
+              <div class="flex items-start justify-between gap-4 mb-3">
+                <div>
+                  <h3 class="font-display font-bold text-white text-lg">Royal Beard Sculpting</h3>
+                  <p class="font-arabic text-xs text-[#D4AF37]">تحديد وتنسيق لحية بالموس</p>
+                </div>
+                <span class="font-display font-bold text-xl text-[#F3E5AB] tabular-nums">$25</span>
+              </div>
+              <p class="text-xs text-[#A1A1AA] leading-relaxed mb-4">
+                Razor sharp perimeter geometry, clipper bulk taper, cheek line-up, organic argan oil conditioning, and soothing aftershave mist.
+              </p>
+              <div class="flex items-center gap-2 text-[11px] text-[#71717A] mb-4">
+                <span>⏱ 25 mins</span>
+                <span>·</span>
+                <span>Includes organic beard oil</span>
+              </div>
+            </div>
+            <button onclick="openBookingModal('Royal Beard Sculpting', '$25')" class="w-full py-2.5 rounded bg-[#1C1C21] hover:bg-[#D4AF37] hover:text-black text-xs font-semibold text-[#F3E5AB] transition-colors border border-[#27272A]">
+              Select Service
+            </button>
+          </div>
+
+          <!-- Service 3: Traditional Hot Towel Shave -->
+          <div class="service-card bg-[#141417] p-6 rounded-xl border border-[#27272A] hover:border-[#D4AF37]/50 transition-all flex flex-col justify-between" data-category="beard">
+            <div>
+              <div class="flex items-start justify-between gap-4 mb-3">
+                <div>
+                  <h3 class="font-display font-bold text-white text-lg">Hot Towel Steam Shave</h3>
+                  <p class="font-arabic text-xs text-[#D4AF37]">حلاقة الفوطة الساخنة والبخار</p>
+                </div>
+                <span class="font-display font-bold text-xl text-[#F3E5AB] tabular-nums">$30</span>
+              </div>
+              <p class="text-xs text-[#A1A1AA] leading-relaxed mb-4">
+                Steamed essential oil towel compress, warm rich badger lather, classic straight razor shave, and cooling rosewater pore-closing tonic.
+              </p>
+              <div class="flex items-center gap-2 text-[11px] text-[#71717A] mb-4">
+                <span>⏱ 30 mins</span>
+                <span>·</span>
+                <span>Eucalyptus aroma therapy</span>
+              </div>
+            </div>
+            <button onclick="openBookingModal('Hot Towel Steam Shave', '$30')" class="w-full py-2.5 rounded bg-[#1C1C21] hover:bg-[#D4AF37] hover:text-black text-xs font-semibold text-[#F3E5AB] transition-colors border border-[#27272A]">
+              Select Service
+            </button>
+          </div>
+
+          <!-- Service 4: The King's VIP Package (Marquee Combo) -->
+          <div class="service-card bg-gradient-to-b from-[#1E1B13] to-[#141417] p-6 rounded-xl border-2 border-[#D4AF37]/60 shadow-xl flex flex-col justify-between relative" data-category="vip">
+            <div class="absolute -top-3 right-6 bg-[#D4AF37] text-black text-[10px] font-bold uppercase tracking-wider px-2.5 py-0.5 rounded shadow">
+              Most Popular VIP
+            </div>
+            <div>
+              <div class="flex items-start justify-between gap-4 mb-3">
+                <div>
+                  <h3 class="font-display font-bold text-white text-lg">The King's Royal Combo</h3>
+                  <p class="font-arabic text-xs text-[#D4AF37]">الباقة الملكية الشاملة</p>
+                </div>
+                <span class="font-display font-bold text-2xl text-[#F5D77F] tabular-nums">$55</span>
+              </div>
+              <p class="text-xs text-[#A1A1AA] leading-relaxed mb-4">
+                Master Haircut + Beard Sculpting + Steamed Hot Towel + Scalp Wash + Nose/Ear Waxing & refreshing facial black mask.
+              </p>
+              <div class="flex items-center gap-2 text-[11px] text-[#E4C87F] mb-4">
+                <span>⏱ 60 mins</span>
+                <span>·</span>
+                <span>Full VIP Transformation</span>
+              </div>
+            </div>
+            <button onclick="openBookingModal('The King’s Royal Combo', '$55')" class="btn-gold w-full py-2.5 rounded text-xs">
+              Book VIP Combo
+            </button>
+          </div>
+
+          <!-- Service 5: Capillary Hair & Scalp Treatment -->
+          <div class="service-card bg-[#141417] p-6 rounded-xl border border-[#27272A] hover:border-[#D4AF37]/50 transition-all flex flex-col justify-between" data-category="treatments">
+            <div>
+              <div class="flex items-start justify-between gap-4 mb-3">
+                <div>
+                  <h3 class="font-display font-bold text-white text-lg">Capillary Hair Treatment</h3>
+                  <p class="font-arabic text-xs text-[#D4AF37]">علاج وترميم الشعر وفروة الرأس</p>
+                </div>
+                <span class="font-display font-bold text-xl text-[#F3E5AB] tabular-nums">$60</span>
+              </div>
+              <p class="text-xs text-[#A1A1AA] leading-relaxed mb-4">
+                Specialized nutrient ampoule infusion, scalp stimulation, protein conditioning, and restorative treatment for healthy, dense hair.
+              </p>
+              <div class="flex items-center gap-2 text-[11px] text-[#71717A] mb-4">
+                <span>⏱ 45 mins</span>
+                <span>·</span>
+                <span>Anti-thinning & follicle health</span>
+              </div>
+            </div>
+            <button onclick="openBookingModal('Capillary Hair Treatment', '$60')" class="w-full py-2.5 rounded bg-[#1C1C21] hover:bg-[#D4AF37] hover:text-black text-xs font-semibold text-[#F3E5AB] transition-colors border border-[#27272A]">
+              Select Service
+            </button>
+          </div>
+
+          <!-- Service 6: Beard Dyeing & Natural Maintenance -->
+          <div class="service-card bg-[#141417] p-6 rounded-xl border border-[#27272A] hover:border-[#D4AF37]/50 transition-all flex flex-col justify-between" data-category="treatments">
+            <div>
+              <div class="flex items-start justify-between gap-4 mb-3">
+                <div>
+                  <h3 class="font-display font-bold text-white text-lg">Beard Color & Conditioning</h3>
+                  <p class="font-arabic text-xs text-[#D4AF37]">صبغ وتوحيد لون اللحية طبيعياً</p>
+                </div>
+                <span class="font-display font-bold text-xl text-[#F3E5AB] tabular-nums">$30</span>
+              </div>
+              <p class="text-xs text-[#A1A1AA] leading-relaxed mb-4">
+                Natural ammonia-free pigment blending for subtle grey coverage and uniform rich tone, finished with intensive keratin softening balm.
+              </p>
+              <div class="flex items-center gap-2 text-[11px] text-[#71717A] mb-4">
+                <span>⏱ 30 mins</span>
+                <span>·</span>
+                <span>Natural tint without harsh stains</span>
+              </div>
+            </div>
+            <button onclick="openBookingModal('Beard Color & Conditioning', '$30')" class="w-full py-2.5 rounded bg-[#1C1C21] hover:bg-[#D4AF37] hover:text-black text-xs font-semibold text-[#F3E5AB] transition-colors border border-[#27272A]">
+              Select Service
+            </button>
+          </div>
+
+          <!-- Service 7: Young Princes (Children's Cut) -->
+          <div class="service-card bg-[#141417] p-6 rounded-xl border border-[#27272A] hover:border-[#D4AF37]/50 transition-all flex flex-col justify-between" data-category="hair">
+            <div>
+              <div class="flex items-start justify-between gap-4 mb-3">
+                <div>
+                  <h3 class="font-display font-bold text-white text-lg">Children’s Royal Cut (Under 12)</h3>
+                  <p class="font-arabic text-xs text-[#D4AF37]">قص شعر أطفال راقي</p>
+                </div>
+                <span class="font-display font-bold text-xl text-[#F3E5AB] tabular-nums">$25</span>
+              </div>
+              <p class="text-xs text-[#A1A1AA] leading-relaxed mb-4">
+                Patient, calm, high-precision cuts tailored for younger gentlemen with fun styling product and a lollipop treat.
+              </p>
+              <div class="flex items-center gap-2 text-[11px] text-[#71717A] mb-4">
+                <span>⏱ 25 mins</span>
+                <span>·</span>
+                <span>Family friendly barbershop</span>
+              </div>
+            </div>
+            <button onclick="openBookingModal('Children’s Royal Cut', '$25')" class="w-full py-2.5 rounded bg-[#1C1C21] hover:bg-[#D4AF37] hover:text-black text-xs font-semibold text-[#F3E5AB] transition-colors border border-[#27272A]">
+              Select Service
+            </button>
+          </div>
+
+          <!-- Service 8: Groom’s Royal Wedding Suite -->
+          <div class="service-card bg-[#141417] p-6 rounded-xl border border-[#27272A] hover:border-[#D4AF37]/50 transition-all flex flex-col justify-between" data-category="vip">
+            <div>
+              <div class="flex items-start justify-between gap-4 mb-3">
+                <div>
+                  <h3 class="font-display font-bold text-white text-lg">Groom’s Wedding Package</h3>
+                  <p class="font-arabic text-xs text-[#D4AF37]">باقة العريس الملكية الخاصة</p>
+                </div>
+                <span class="font-display font-bold text-xl text-[#F3E5AB] tabular-nums">$95</span>
+              </div>
+              <p class="text-xs text-[#A1A1AA] leading-relaxed mb-4">
+                The ultimate preparation for your special day: Haircut, Beard Sculpt, Double Hot Towel Shave, 24k Gold Collagen Facial, Scalp Massage & Styling.
+              </p>
+              <div class="flex items-center gap-2 text-[11px] text-[#71717A] mb-4">
+                <span>⏱ 75 mins</span>
+                <span>·</span>
+                <span>Complimentary Arabic coffee service</span>
+              </div>
+            </div>
+            <button onclick="openBookingModal('Groom’s Wedding Package', '$95')" class="w-full py-2.5 rounded bg-[#1C1C21] hover:bg-[#D4AF37] hover:text-black text-xs font-semibold text-[#F3E5AB] transition-colors border border-[#27272A]">
+              Select Service
+            </button>
+          </div>
+
+          <!-- Service 9: Hair Straightening / Keratin -->
+          <div class="service-card bg-[#141417] p-6 rounded-xl border border-[#27272A] hover:border-[#D4AF37]/50 transition-all flex flex-col justify-between" data-category="treatments">
+            <div>
+              <div class="flex items-start justify-between gap-4 mb-3">
+                <div>
+                  <h3 class="font-display font-bold text-white text-lg">Hair Smoothing & Relaxer</h3>
+                  <p class="font-arabic text-xs text-[#D4AF37]">تنعيم وتمليس الشعر بالبروتين</p>
+                </div>
+                <span class="font-display font-bold text-xl text-[#F3E5AB] tabular-nums">$80+</span>
+              </div>
+              <p class="text-xs text-[#A1A1AA] leading-relaxed mb-4">
+                Professional Brazilian protein smoothing treatment eliminates frizz and creates manageable, sleek hair structure lasting 3+ months.
+              </p>
+              <div class="flex items-center gap-2 text-[11px] text-[#71717A] mb-4">
+                <span>⏱ 60 mins</span>
+                <span>·</span>
+                <span>Long-lasting manageable texture</span>
+              </div>
+            </div>
+            <button onclick="openBookingModal('Hair Smoothing & Relaxer', '$80+')" class="w-full py-2.5 rounded bg-[#1C1C21] hover:bg-[#D4AF37] hover:text-black text-xs font-semibold text-[#F3E5AB] transition-colors border border-[#27272A]">
+              Select Service
+            </button>
+          </div>
+
+        </div>
+
+        <!-- Custom Request Notice -->
+        <div class="mt-12 p-6 rounded-xl bg-[#141417] border border-[#27272A] flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div class="text-center sm:text-left">
+            <h4 class="font-display font-semibold text-white text-base">Looking for a tailored service or group booking?</h4>
+            <p class="text-xs text-[#A1A1AA]">We accommodate wedding parties, groomsmen groups, and VIP private appointments upon request.</p>
+          </div>
+          <a href="https://wa.me/18329988188?text=Hello%20King's%20Cut!%20I%20have%20a%20special%20group%20booking%20or%20custom%20inquiry." target="_blank" rel="noopener" class="btn-outline-gold px-5 py-2.5 rounded-lg text-xs whitespace-nowrap">
+            Inquire via WhatsApp
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 4: MASTER BARBER GALLERY (VISUAL SHOWCASE) -->
+    <section id="gallery" class="py-24 bg-[#121214] border-t border-b border-[#27272A]">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-16 space-y-3">
+          <p class="text-xs font-semibold uppercase tracking-widest text-[#D4AF37]">Visual Excellence</p>
+          <h2 class="text-3xl sm:text-4xl font-display font-bold text-white">
+            The Master Barber Lookbook
+          </h2>
+          <p class="text-sm text-[#A1A1AA]">
+            Every contour, taper, and line-up reflects over a decade of master artisanal craftsmanship.
+          </p>
+        </div>
+
+        <!-- Bento Grid Gallery -->
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+          
+          <!-- Large Highlight Card: Fade Mastery -->
+          <div class="md:col-span-7 group relative rounded-2xl overflow-hidden border border-[#27272A] hover:border-[#D4AF37]/50 transition-colors h-[380px] sm:h-[460px]">
+            <img 
+              src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=800&q=80" 
+              alt="Precision razor skin fade haircut at King's Cut Houston"
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-[#0B0B0C] via-[#0B0B0C]/30 to-transparent"></div>
+            <div class="absolute bottom-6 left-6 right-6">
+              <span class="text-xs font-semibold text-[#D4AF37] uppercase tracking-wider">Flawless Tapers</span>
+              <h3 class="text-xl sm:text-2xl font-display font-bold text-white mt-1">Precision Razor Skin Fade</h3>
+              <p class="text-xs text-[#A1A1AA] mt-1">Smooth gradient transitions and razor-sharp architectural temple lines.</p>
+            </div>
+          </div>
+
+          <!-- Secondary Card: Royal Shave -->
+          <div class="md:col-span-5 group relative rounded-2xl overflow-hidden border border-[#27272A] hover:border-[#D4AF37]/50 transition-colors h-[380px] sm:h-[460px]">
+            <img 
+              src="https://images.unsplash.com/photo-1512690459411-b9245aed614b?auto=format&fit=crop&w=800&q=80" 
+              alt="Traditional hot towel straight razor shave at King's Cut"
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-[#0B0B0C] via-[#0B0B0C]/30 to-transparent"></div>
+            <div class="absolute bottom-6 left-6 right-6">
+              <span class="text-xs font-semibold text-[#D4AF37] uppercase tracking-wider">Classic Ritual</span>
+              <h3 class="text-xl sm:text-2xl font-display font-bold text-white mt-1">Hot Towel Steam Shave</h3>
+              <p class="text-xs text-[#A1A1AA] mt-1">Herbal infusions, soothing warmth, and zero razor irritation.</p>
+            </div>
+          </div>
+
+          <!-- Bottom Card 1: Beard Sculpting -->
+          <div class="md:col-span-6 group relative rounded-2xl overflow-hidden border border-[#27272A] hover:border-[#D4AF37]/50 transition-colors h-[320px]">
+            <img 
+              src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=800&q=80" 
+              alt="Sharp Arabic beard sculpting and lineup at King's Cut Houston"
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-[#0B0B0C] via-[#0B0B0C]/30 to-transparent"></div>
+            <div class="absolute bottom-6 left-6 right-6">
+              <span class="text-xs font-semibold text-[#D4AF37] uppercase tracking-wider">Arabic Heritage</span>
+              <h3 class="text-xl font-display font-bold text-white mt-1">Arabic Beard Line-Up & Sculpt</h3>
+              <p class="text-xs text-[#A1A1AA] mt-1">Crisp geometry framing your natural jawline and facial contours.</p>
+            </div>
+          </div>
+
+          <!-- Bottom Card 2: Luxury Lounge & Atmosphere -->
+          <div class="md:col-span-6 group relative rounded-2xl overflow-hidden border border-[#27272A] hover:border-[#D4AF37]/50 transition-colors h-[320px]">
+            <img 
+              src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=800&q=80" 
+              alt="VIP leather lounge and seating at King's Cut 7814 Almeda Rd"
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-[#0B0B0C] via-[#0B0B0C]/30 to-transparent"></div>
+            <div class="absolute bottom-6 left-6 right-6">
+              <span class="text-xs font-semibold text-[#D4AF37] uppercase tracking-wider">Sanctuary</span>
+              <h3 class="text-xl font-display font-bold text-white mt-1">VIP Hospitality Lounge</h3>
+              <p class="text-xs text-[#A1A1AA] mt-1">Plush seating, authentic cardamom Arabic coffee, and pristine hospitality.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 5: 5.0★ VERIFIED GOOGLE REVIEWS -->
+    <section id="reviews" class="py-24 bg-[#0B0B0C] relative">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+          <div class="space-y-3">
+            <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded bg-[#1C1C21] border border-[#D4AF37]/30 text-xs text-[#F3E5AB]">
+              <span class="text-[#D4AF37]">★★★★★</span>
+              <span>100% 5.0 Star Rating</span>
+            </div>
+            <h2 class="text-3xl sm:text-4xl font-display font-bold text-white">
+              Endorsed by 377+ Houston Gentlemen
+            </h2>
+            <p class="text-sm text-[#A1A1AA] max-w-xl">
+              Authentic reviews from clients who trust King’s Cut with their weekly cuts, beard care, and wedding preparations.
+            </p>
+          </div>
+
+          <div class="flex items-center gap-4">
+            <a href="https://maps.google.com/?q=7814+Almeda+Rd,+Houston,+TX+77054" target="_blank" rel="noopener" class="btn-outline-gold px-4 py-2.5 rounded-lg text-xs flex items-center gap-2">
+              <svg class="w-4 h-4 text-[#D4AF37]" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+              <span>View On Google Maps (5.0★)</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Reviews Cards Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          
+          <!-- Review 1 -->
+          <div class="bg-[#141417] p-8 rounded-xl border border-[#27272A] flex flex-col justify-between">
+            <div class="space-y-4">
+              <div class="flex items-center justify-between">
+                <div class="flex text-[#D4AF37] text-sm">★★★★★</div>
+                <span class="text-[11px] text-[#71717A]">1 week ago · Verified Google Review</span>
+              </div>
+              <p class="text-sm text-[#E4E4E7] leading-relaxed italic">
+                “Hands down the best Arabic barber in all of Houston! The attention to detail on the beard line up and fade is unrivaled. They took their time with the hot towel and made me feel like royalty. Worth every penny.”
+              </p>
+            </div>
+            <div class="pt-6 mt-6 border-t border-[#27272A] flex items-center gap-3">
+              <div class="w-10 h-10 rounded-full bg-[#27272A] text-[#D4AF37] font-bold flex items-center justify-center text-sm border border-[#D4AF37]/30">
+                TA
+              </div>
+              <div>
+                <h4 class="text-sm font-semibold text-white">Tarek Al-Mansoor</h4>
+                <p class="text-xs text-[#71717A]">Houston, TX · Regular Client</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Review 2 -->
+          <div class="bg-[#141417] p-8 rounded-xl border border-[#27272A] flex flex-col justify-between">
+            <div class="space-y-4">
+              <div class="flex items-center justify-between">
+                <div class="flex text-[#D4AF37] text-sm">★★★★★</div>
+                <span class="text-[11px] text-[#71717A]">2 weeks ago · Verified Google Review</span>
+              </div>
+              <p class="text-sm text-[#E4E4E7] leading-relaxed italic">
+                “Came in for the King’s VIP combo before my brother’s wedding. The haircut was crisp, beard was razor sharp, and the facial refreshed my whole face. Clean shop, great Arabic hospitality, and easy parking on Almeda Rd.”
+              </p>
+            </div>
+            <div class="pt-6 mt-6 border-t border-[#27272A] flex items-center gap-3">
+              <div class="w-10 h-10 rounded-full bg-[#27272A] text-[#D4AF37] font-bold flex items-center justify-center text-sm border border-[#D4AF37]/30">
+                MR
+              </div>
+              <div>
+                <h4 class="text-sm font-semibold text-white">Mohamed R.</h4>
+                <p class="text-xs text-[#71717A]">Medical Center Houston · Local Guide</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Review 3 -->
+          <div class="bg-[#141417] p-8 rounded-xl border border-[#27272A] flex flex-col justify-between">
+            <div class="space-y-4">
+              <div class="flex items-center justify-between">
+                <div class="flex text-[#D4AF37] text-sm">★★★★★</div>
+                <span class="text-[11px] text-[#71717A]">3 weeks ago · Verified Google Review</span>
+              </div>
+              <p class="text-sm text-[#E4E4E7] leading-relaxed italic">
+                “Finally a barber who understands how to shape a thick beard properly! He didn’t take too much off the length, perfected the cheek lines, and gave me the best skin fade in years. 10/10 highly recommend.”
+              </p>
+            </div>
+            <div class="pt-6 mt-6 border-t border-[#27272A] flex items-center gap-3">
+              <div class="w-10 h-10 rounded-full bg-[#27272A] text-[#D4AF37] font-bold flex items-center justify-center text-sm border border-[#D4AF37]/30">
+                SK
+              </div>
+              <div>
+                <h4 class="text-sm font-semibold text-white">Sufiyan Khan</h4>
+                <p class="text-xs text-[#71717A]">Sugar Land, TX · VIP Member</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Direct Review Submission CTA -->
+        <div class="mt-12 text-center">
+          <p class="text-xs text-[#71717A] mb-3">Visited King’s Cut recently? We appreciate your feedback.</p>
+          <a href="https://maps.google.com/?q=7814+Almeda+Rd,+Houston,+TX+77054" target="_blank" rel="noopener" class="inline-flex items-center gap-2 text-xs font-semibold text-[#D4AF37] hover:text-[#F5D77F] transition-colors">
+            <span>Write a Review on Google Maps</span>
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 6: LOCATION, HOURS & CONCIERGE -->
+    <section id="location" class="py-24 bg-[#121214] border-t border-[#27272A]">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+          
+          <!-- Location Details & Hours -->
+          <div class="lg:col-span-5 space-y-8">
+            <div class="space-y-3">
+              <p class="text-xs font-semibold uppercase tracking-widest text-[#D4AF37]">Visit King’s Cut</p>
+              <h2 class="text-3xl font-display font-bold text-white">
+                Location & Opening Hours
+              </h2>
+              <p class="text-sm text-[#A1A1AA]">
+                Conveniently situated in Houston's Astrodome & Texas Medical Center corridor with effortless dedicated front parking.
+              </p>
+            </div>
+
+            <!-- Address Card -->
+            <div class="bg-[#18181B] p-6 rounded-xl border border-[#27272A] space-y-4">
+              <div class="flex items-start gap-4">
+                <div class="w-10 h-10 rounded-lg bg-[#27272A] text-[#D4AF37] flex items-center justify-center shrink-0">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                </div>
+                <div>
+                  <h4 class="text-sm font-semibold text-white">Flagship Barber Shop</h4>
+                  <p class="text-sm text-[#D4D4D8] font-medium mt-0.5">7814 Almeda Rd</p>
+                  <p class="text-xs text-[#A1A1AA]">Houston, TX 77054, United States</p>
+                  <p class="text-[11px] text-[#71717A] mt-1 font-arabic">منطقة الاسترودوم والمركز الطبي هيوستن</p>
+                </div>
+              </div>
+
+              <div class="pt-4 border-t border-[#27272A] flex flex-wrap gap-3">
+                <a href="https://maps.google.com/?q=7814+Almeda+Rd,+Houston,+TX+77054" target="_blank" rel="noopener" class="btn-gold px-4 py-2 rounded text-xs">
+                  <span>Open in Google Maps</span>
+                  <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                </a>
+                <a href="tel:8329988188" class="btn-outline-gold px-4 py-2 rounded text-xs">
+                  Call Shop Directly
+                </a>
+              </div>
+            </div>
+
+            <!-- Hours Table with Live Status Highlight -->
+            <div class="bg-[#18181B] p-6 rounded-xl border border-[#27272A] space-y-3">
+              <div class="flex items-center justify-between pb-3 border-b border-[#27272A]">
+                <h4 class="text-sm font-semibold text-white">Weekly Operating Hours</h4>
+                <div class="flex items-center gap-1.5 text-xs text-emerald-400 font-medium">
+                  <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+                  <span id="hours-badge">Open 10:00 AM – 8:00 PM</span>
+                </div>
+              </div>
+
+              <div class="space-y-2 text-xs">
+                <div class="flex justify-between py-1 text-[#E4E4E7]">
+                  <span class="font-medium">Monday</span>
+                  <span class="text-[#A1A1AA] tabular-nums">10:00 AM – 8:00 PM</span>
+                </div>
+                <div class="flex justify-between py-1 text-[#E4E4E7]">
+                  <span class="font-medium">Tuesday</span>
+                  <span class="text-[#A1A1AA] tabular-nums">10:00 AM – 8:00 PM</span>
+                </div>
+                <div class="flex justify-between py-1 text-[#E4E4E7]">
+                  <span class="font-medium">Wednesday</span>
+                  <span class="text-[#A1A1AA] tabular-nums">10:00 AM – 8:00 PM</span>
+                </div>
+                <div class="flex justify-between py-1 text-[#E4E4E7]">
+                  <span class="font-medium">Thursday</span>
+                  <span class="text-[#A1A1AA] tabular-nums">10:00 AM – 8:00 PM</span>
+                </div>
+                <div class="flex justify-between py-1 text-[#E4E4E7]">
+                  <span class="font-medium">Friday (Jummah)</span>
+                  <span class="text-[#A1A1AA] tabular-nums">10:00 AM – 8:00 PM</span>
+                </div>
+                <div class="flex justify-between py-1 text-[#E4E4E7]">
+                  <span class="font-medium">Saturday</span>
+                  <span class="text-[#A1A1AA] tabular-nums">10:00 AM – 8:00 PM</span>
+                </div>
+                <div class="flex justify-between py-1 text-[#E4E4E7]">
+                  <span class="font-medium">Sunday</span>
+                  <span class="text-[#A1A1AA] tabular-nums">10:00 AM – 7:00 PM</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Interactive Map Container -->
+          <div class="lg:col-span-7 space-y-4">
+            <div class="rounded-2xl overflow-hidden border border-[#27272A] relative bg-[#18181B] h-[480px]">
+              <iframe 
+                src="https://maps.google.com/maps?q=7814+Almeda+Rd,+Houston,+TX+77054&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+                width="100%" 
+                height="100%" 
+                style="border:0; filter: invert(90%) hue-rotate(180deg) contrast(100%);" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"
+                title="King's Cut Location Map">
+              </iframe>
+              
+              <!-- Map Floating Overlay Badge -->
+              <div class="absolute top-4 left-4 bg-[#141417]/90 backdrop-blur-md p-3.5 rounded-lg border border-[#D4AF37]/30 shadow-lg text-xs max-w-xs">
+                <p class="font-semibold text-white">King's Cut (حلاق عربي)</p>
+                <p class="text-[#A1A1AA] text-[11px] mt-0.5">7814 Almeda Rd, Houston, TX 77054</p>
+                <div class="flex items-center gap-1.5 mt-2 text-[#D4AF37] font-semibold text-[11px]">
+                  <span>★ 5.0 (377 Reviews)</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Parking & Transit Note -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs text-[#A1A1AA]">
+              <div class="p-4 rounded-lg bg-[#18181B] border border-[#27272A]">
+                <strong class="text-white block mb-1">🚗 Dedicated Free Parking</strong>
+                Plentiful parking spaces directly in front of the storefront entrance on Almeda Rd.
+              </div>
+              <div class="p-4 rounded-lg bg-[#18181B] border border-[#27272A]">
+                <strong class="text-white block mb-1">📍 Neighborhood Proximity</strong>
+                Just 4 minutes from NRG Stadium and Texas Medical Center, easy access from 610 Loop & TX-288.
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-[#080809] border-t border-[#1C1C21] py-16 text-xs text-[#71717A]">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+        
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-start justify-between">
+          
+          <div class="md:col-span-5 space-y-4">
+            <div class="flex items-center gap-3">
+              <span class="text-2xl">👑</span>
+              <div>
+                <span class="font-display font-bold text-lg text-white tracking-wider block">KING’S CUT</span>
+                <span class="font-arabic text-xs font-semibold text-[#D4AF37]">حلاق عربي — هيوستن</span>
+              </div>
+            </div>
+            <p class="text-[#A1A1AA] text-xs max-w-sm leading-relaxed">
+              Houston’s highest-rated Arabic barber shop delivering precision haircuts, beard architecture, and traditional hot towel steam grooming with 5.0★ service.
+            </p>
+            <p class="text-[#71717A]">
+              7814 Almeda Rd, Houston, TX 77054 · (832) 998-8188
+            </p>
+          </div>
+
+          <div class="md:col-span-3 space-y-3">
+            <h4 class="font-display font-semibold text-white text-xs uppercase tracking-wider">Quick Navigation</h4>
+            <ul class="space-y-2 text-[#A1A1AA]">
+              <li><a href="#services" class="hover:text-[#D4AF37] transition-colors">Services & Pricing</a></li>
+              <li><a href="#experience" class="hover:text-[#D4AF37] transition-colors">The Royal Standard</a></li>
+              <li><a href="#gallery" class="hover:text-[#D4AF37] transition-colors">Master Lookbook</a></li>
+              <li><a href="#reviews" class="hover:text-[#D4AF37] transition-colors">Google Reviews (5.0★)</a></li>
+              <li><a href="#location" class="hover:text-[#D4AF37] transition-colors">Location & Hours</a></li>
+            </ul>
+          </div>
+
+          <div class="md:col-span-4 space-y-4">
+            <h4 class="font-display font-semibold text-white text-xs uppercase tracking-wider">Connect & Reserve</h4>
+            <p class="text-xs text-[#A1A1AA]">
+              Have questions or need to secure your spot for the weekend? Reach out directly via WhatsApp or phone.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-3">
+              <button onclick="openBookingModal()" class="btn-gold px-4 py-2.5 rounded text-xs">
+                Book Appointment
+              </button>
+              <a href="https://wa.me/18329988188" target="_blank" rel="noopener" class="btn-outline-gold px-4 py-2.5 rounded text-xs text-center">
+                WhatsApp Concierge
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="pt-8 border-t border-[#1C1C21] flex flex-col sm:flex-row items-center justify-between gap-4 text-[#52525B]">
+          <p>© <span id="current-year">2026</span> King’s Cut (حلاق عربي). All rights reserved.</p>
+          <div class="flex items-center gap-4">
+            <span>Houston, Texas</span>
+            <span>·</span>
+            <span>Astrodome Area</span>
+            <span>·</span>
+            <span>5.0 ★ Rated</span>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+
+    <!-- MOBILE FLOATING ACTION BAR (Strict 15% Viewport Budget Compliance) -->
+    <div class="fixed bottom-0 left-0 right-0 z-40 md:hidden bg-[#121214]/95 backdrop-blur-lg border-t border-[#27272A] px-4 py-2.5 flex items-center justify-between gap-3 shadow-2xl">
+      <a href="tel:8329988188" class="flex-1 py-2 px-3 rounded bg-[#1C1C21] border border-[#27272A] text-white text-xs font-semibold text-center flex items-center justify-center gap-1.5">
+        <svg class="w-3.5 h-3.5 text-[#D4AF37]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+        <span>Call</span>
+      </a>
+
+      <a href="https://wa.me/18329988188?text=Hello%20King's%20Cut!%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" rel="noopener" class="flex-1 py-2 px-3 rounded bg-[#0e271a] border border-emerald-800 text-emerald-400 text-xs font-semibold text-center flex items-center justify-center gap-1.5">
+        <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+        <span>WhatsApp</span>
+      </a>
+
+      <button onclick="openBookingModal()" class="flex-1 btn-gold py-2 px-3 rounded text-xs shadow-md">
+        <span>Book Now</span>
+      </button>
+    </div>
+
+    <!-- INTERACTIVE BOOKING MODAL -->
+    <div id="booking-modal" class="fixed inset-0 z-50 flex items-center justify-center p-4 modal-backdrop hidden" onclick="handleModalBackdropClick(event)">
+      <div class="bg-[#141417] border border-[#D4AF37]/50 rounded-2xl w-full max-w-lg p-6 sm:p-8 shadow-2xl relative max-h-[92vh] overflow-y-auto" onclick="event.stopPropagation()">
+        
+        <!-- Close button -->
+        <button onclick="closeBookingModal()" class="absolute top-5 right-5 text-[#A1A1AA] hover:text-white p-1" aria-label="Close booking modal">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+
+        <div class="space-y-1 mb-6">
+          <div class="flex items-center gap-2">
+            <span class="text-xl">👑</span>
+            <span class="font-display font-bold text-white text-lg">Reserve Your Chair</span>
+          </div>
+          <p class="text-xs text-[#A1A1AA]">King’s Cut (حلاق عربي) · 7814 Almeda Rd, Houston, TX</p>
+        </div>
+
+        <!-- Booking Form -->
+        <form id="booking-form" onsubmit="handleBookingSubmit(event)" class="space-y-4">
+          
+          <!-- Select Service -->
+          <div>
+            <label class="block text-xs font-semibold text-[#D4D4D8] mb-1.5">Select Service</label>
+            <select id="modal-service" class="w-full bg-[#1C1C21] border border-[#27272A] focus:border-[#D4AF37] rounded-lg px-3.5 py-2.5 text-xs text-white outline-none">
+              <option value="The King’s Royal Combo ($55)">👑 The King’s Royal Combo (Hair + Beard + Hot Towel + Mask) — $55</option>
+              <option value="Signature Fade & Cut ($35)">Signature Fade & Cut — $35</option>
+              <option value="Royal Beard Sculpting ($25)">Royal Beard Sculpting & Line Up — $25</option>
+              <option value="Hot Towel Steam Shave ($30)">Hot Towel Steam Shave — $30</option>
+              <option value="Capillary Hair Treatment ($60)">Capillary Scalp & Hair Treatment — $60</option>
+              <option value="Beard Color & Conditioning ($30)">Beard Color & Natural Tint — $30</option>
+              <option value="Children’s Royal Cut ($25)">Children’s Royal Cut (Under 12) — $25</option>
+              <option value="Groom’s Wedding Package ($95)">Groom’s Royal Wedding Suite — $95</option>
+              <option value="Hair Smoothing & Relaxer ($80+)">Hair Smoothing / Keratin Protein — $80+</option>
+            </select>
+          </div>
+
+          <!-- Date & Time Row -->
+          <div class="grid grid-cols-2 gap-3">
+            <div>
+              <label class="block text-xs font-semibold text-[#D4D4D8] mb-1.5">Preferred Date</label>
+              <input type="date" id="modal-date" required class="w-full bg-[#1C1C21] border border-[#27272A] focus:border-[#D4AF37] rounded-lg px-3.5 py-2.5 text-xs text-white outline-none" />
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-[#D4D4D8] mb-1.5">Preferred Time</label>
+              <select id="modal-time" required class="w-full bg-[#1C1C21] border border-[#27272A] focus:border-[#D4AF37] rounded-lg px-3.5 py-2.5 text-xs text-white outline-none">
+                <option value="10:00 AM">10:00 AM</option>
+                <option value="11:00 AM">11:00 AM</option>
+                <option value="12:00 PM">12:00 PM</option>
+                <option value="01:00 PM">01:00 PM</option>
+                <option value="02:00 PM">02:00 PM</option>
+                <option value="03:00 PM">03:00 PM</option>
+                <option value="04:00 PM">04:00 PM</option>
+                <option value="05:00 PM">05:00 PM</option>
+                <option value="06:00 PM">06:00 PM</option>
+                <option value="07:00 PM">07:00 PM</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Name and Phone -->
+          <div>
+            <label class="block text-xs font-semibold text-[#D4D4D8] mb-1.5">Your Full Name</label>
+            <input type="text" id="modal-name" placeholder="e.g. Tariq Mansoor" required class="w-full bg-[#1C1C21] border border-[#27272A] focus:border-[#D4AF37] rounded-lg px-3.5 py-2.5 text-xs text-white outline-none" />
+          </div>
+
+          <div>
+            <label class="block text-xs font-semibold text-[#D4D4D8] mb-1.5">Mobile Phone (for instant WhatsApp confirmation)</label>
+            <input type="tel" id="modal-phone" placeholder="(832) 000-0000" required class="w-full bg-[#1C1C21] border border-[#27272A] focus:border-[#D4AF37] rounded-lg px-3.5 py-2.5 text-xs text-white outline-none" />
+          </div>
+
+          <div>
+            <label class="block text-xs font-semibold text-[#D4D4D8] mb-1.5">Special Requests (Optional)</label>
+            <textarea id="modal-notes" rows="2" placeholder="e.g. Skin fade with razor sharp cheek line, wedding event" class="w-full bg-[#1C1C21] border border-[#27272A] focus:border-[#D4AF37] rounded-lg px-3.5 py-2 text-xs text-white outline-none resize-none"></textarea>
+          </div>
+
+          <div class="pt-2">
+            <button type="submit" class="btn-gold w-full py-3.5 rounded-lg text-xs font-bold shadow-lg">
+              Confirm & Request Appointment
+            </button>
+          </div>
+
+          <p class="text-[11px] text-center text-[#71717A]">
+            No pre-payment required. Pay comfortably at the shop after your service.
+          </p>
+
+        </form>
+
+        <!-- Booking Success State (Revealed dynamically) -->
+        <div id="booking-success" class="hidden text-center py-6 space-y-4">
+          <div class="w-14 h-14 bg-emerald-950 border border-emerald-500 rounded-full flex items-center justify-center text-emerald-400 text-2xl mx-auto">
+            ✓
+          </div>
+          <h3 class="text-lg font-display font-bold text-white">Appointment Request Received!</h3>
+          <p id="booking-summary-text" class="text-xs text-[#A1A1AA] leading-relaxed max-w-sm mx-auto">
+            Thank you! Your chair request has been logged. You can also send the details straight to our master barber via WhatsApp for instantaneous confirmation.
+          </p>
+          <div class="flex flex-col gap-2 pt-2">
+            <a id="whatsapp-confirm-link" href="#" target="_blank" rel="noopener" class="w-full py-3 rounded-lg text-xs font-semibold text-emerald-400 bg-emerald-950/80 border border-emerald-700 flex items-center justify-center gap-2">
+              <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+              <span>Instant WhatsApp Confirmation</span>
+            </a>
+            <button onclick="closeBookingModal()" class="w-full py-2.5 rounded bg-[#27272A] text-xs font-semibold text-white">
+              Done
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- EMBEDDED JAVASCRIPT LOGIC (Self-Contained) -->
+    <script>
+      // Set Default Date to Today or Tomorrow
+      (function() {
+        const today = new Date();
+        const yyyy = today.getFullYear();
+        const mm = String(today.getMonth() + 1).padStart(2, '0');
+        const dd = String(today.getDate()).padStart(2, '0');
+        const dateInput = document.getElementById('modal-date');
+        if (dateInput) {
+          dateInput.min = `${yyyy}-${mm}-${dd}`;
+          dateInput.value = `${yyyy}-${mm}-${dd}`;
+        }
+      })();
+
+      // Dynamic Operating Status Indicator (Houston Central Time)
+      (function updateStoreStatus() {
+        try {
+          const now = new Date();
+          // Adjust to Houston timezone (America/Chicago)
+          const houstonTimeStr = now.toLocaleString("en-US", {timeZone: "America/Chicago"});
+          const houstonDate = new Date(houstonTimeStr);
+          const day = houstonDate.getDay(); // 0 is Sunday, 1 is Monday...
+          const hour = houstonDate.getHours();
+
+          const statusElem = document.getElementById('live-status-text');
+          const hoursBadge = document.getElementById('hours-badge');
+          
+          const closeHour = (day === 0) ? 19 : 20; // 7pm on Sunday, 8pm otherwise
+          const isOpen = (hour >= 10 && hour < closeHour);
+
+          if (isOpen) {
+            const closingTimeStr = (day === 0) ? '7:00 PM' : '8:00 PM';
+            if (statusElem) statusElem.textContent = `Open Now · Closes at ${closingTimeStr} today`;
+            if (hoursBadge) hoursBadge.textContent = `Open Now (Closes ${closingTimeStr})`;
+          } else {
+            if (statusElem) statusElem.textContent = `Currently Closed · Opens tomorrow at 10:00 AM`;
+            if (hoursBadge) hoursBadge.textContent = `Closed Now (Opens 10:00 AM)`;
+          }
+        } catch (e) {
+          console.error("Time calculation fallback", e);
+        }
+      })();
+
+      // Mobile Menu Toggle
+      function toggleMobileMenu() {
+        const menu = document.getElementById('mobile-menu');
+        if (menu) {
+          menu.classList.toggle('hidden');
+        }
+      }
+
+      // Services Filtering
+      function filterServices(category) {
+        const cards = document.querySelectorAll('.service-card');
+        const buttons = document.querySelectorAll('.service-filter-btn');
+
+        buttons.forEach(btn => {
+          btn.classList.remove('bg-[#D4AF37]', 'text-black');
+          btn.classList.add('text-[#A1A1AA]');
+        });
+
+        const activeBtn = document.getElementById(`filter-btn-${category}`);
+        if (activeBtn) {
+          activeBtn.classList.add('bg-[#D4AF37]', 'text-black');
+          activeBtn.classList.remove('text-[#A1A1AA]');
+        }
+
+        cards.forEach(card => {
+          if (category === 'all' || card.getAttribute('data-category') === category) {
+            card.style.display = 'flex';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      }
+
+      // Booking Modal Functions
+      function openBookingModal(serviceName, servicePrice) {
+        const modal = document.getElementById('booking-modal');
+        const form = document.getElementById('booking-form');
+        const success = document.getElementById('booking-success');
+        
+        if (modal) {
+          modal.classList.remove('hidden');
+          document.body.style.overflow = 'hidden';
+        }
+
+        if (form && success) {
+          form.classList.remove('hidden');
+          success.classList.add('hidden');
+        }
+
+        if (serviceName) {
+          const select = document.getElementById('modal-service');
+          if (select) {
+            for (let i = 0; i < select.options.length; i++) {
+              if (select.options[i].text.includes(serviceName) || select.options[i].value.includes(serviceName)) {
+                select.selectedIndex = i;
+                break;
+              }
+            }
+          }
+        }
+      }
+
+      function closeBookingModal() {
+        const modal = document.getElementById('booking-modal');
+        if (modal) {
+          modal.classList.add('hidden');
+          document.body.style.overflow = '';
+        }
+      }
+
+      function handleModalBackdropClick(event) {
+        if (event.target.id === 'booking-modal') {
+          closeBookingModal();
+        }
+      }
+
+      // Handle Booking Form Submit
+      function handleBookingSubmit(event) {
+        event.preventDefault();
+        
+        const service = document.getElementById('modal-service').value;
+        const date = document.getElementById('modal-date').value;
+        const time = document.getElementById('modal-time').value;
+        const name = document.getElementById('modal-name').value;
+        const phone = document.getElementById('modal-phone').value;
+        const notes = document.getElementById('modal-notes').value || 'None';
+
+        const form = document.getElementById('booking-form');
+        const success = document.getElementById('booking-success');
+        const summaryText = document.getElementById('booking-summary-text');
+        const waLink = document.getElementById('whatsapp-confirm-link');
+
+        // Build WhatsApp prefilled message
+        const waMessage = `👑 *New Booking Request - King's Cut (حلاق عربي)*\n` +
+          `• Name: ${name}\n` +
+          `• Phone: ${phone}\n` +
+          `• Service: ${service}\n` +
+          `• Preferred Date: ${date}\n` +
+          `• Preferred Time: ${time}\n` +
+          `• Special Notes: ${notes}\n\n` +
+          `Location: 7814 Almeda Rd, Houston, TX 77054`;
+
+        const encodedWa = encodeURIComponent(waMessage);
+        const waUrl = `https://wa.me/18329988188?text=${encodedWa}`;
+
+        if (waLink) {
+          waLink.href = waUrl;
+        }
+
+        if (summaryText) {
+          summaryText.innerHTML = `<strong>${name}</strong>, your request for <strong>${service}</strong> on <strong>${date} at ${time}</strong> has been logged. Click below to instantly forward it to the barber shop's WhatsApp concierge!`;
+        }
+
+        if (form && success) {
+          form.classList.add('hidden');
+          success.classList.remove('hidden');
+        }
+      }
+
+      // Keyboard escape to close modal
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+          closeBookingModal();
+        }
+      });
+    </script>
+  </body>
+</html>
